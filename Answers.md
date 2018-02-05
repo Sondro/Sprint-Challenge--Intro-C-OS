@@ -45,7 +45,9 @@ with themselves and each other using the CMOS settings.
     - RUNNING
     - NOT RUNNING
   - Three-state process
-    -
+    - RUNNING
+    - READY (queued)
+    - BLOCKED (requires event handling)
   - Five-state process
     -
 - Interrupt Requests (IRQs, aka 'Interrupts')
