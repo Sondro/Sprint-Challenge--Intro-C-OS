@@ -11,7 +11,7 @@ with themselves and each other using the CMOS settings.
 - POST (Power-On Self-Test): tests hardware components to determine the system's boot fitness.
     - Feedback may be relayed via audible beep code (ie, single short for pass).
        - Or LED blinks/colors.
-       
+
 ### Boot[strap load]
 - Boot[strap] Loader [program]: On successful POST, the system 'bootstraps' or pulls itself
   together.
@@ -30,9 +30,13 @@ with themselves and each other using the CMOS settings.
 - Process Management
   - Multitasking/programming
     - Parallel processing
-    - Distributed systems (nodes)
-    - Bus architecture
-    - Interleaving processes
+      - Multi-core processors.
+      - Bridging processors.
+      - Distributed systems (nodes).
+    - Specialized bus architecture
+      - Pipes optimized for parallel data flow.
+      - Pipes/Units optimized for parallel micro-instructions.
+    - Interleaving processes.
   - Process Creation
     - Process batches
     - Process node parent/child spawning
