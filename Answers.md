@@ -37,13 +37,17 @@ with themselves and each other using the CMOS settings.
     - Process node parent/child spawning
   - Process Termination
     - Batch halt instructions
-    - Hardware based errors
+    - Hardware errors
+    - Software errors
     - User instructions
+    - Process completed
   - Two-state process model
     - RUNNING
     - NOT RUNNING
   - Three-state process
+    -
   - Five-state process
+    -
 - Interrupt Requests (IRQs, aka 'Interrupts')
   - The systems that manages and interleaves device processes with system processes.
     - IRQ lines send messages from hardware to the CPU to 'interrupt' or take priority.
