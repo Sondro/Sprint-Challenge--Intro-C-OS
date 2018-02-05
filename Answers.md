@@ -27,12 +27,29 @@ with themselves and each other using the CMOS settings.
   - Virtual Device Drivers: emulated hardware (ie DOS, VM ware) have access to device
     systems like IRQs.
 - Process Management
+  - Multitasking/programming
+    - Parallel processing
+    - Distributed systems (nodes)
+    - Bus architecture
+    - Interleaving processes
+  - Process Creation
+    - Process batches
+    - Process node parent/child spawning
+  - Process Termination
+    - Batch halt instructions
+    - Hardware based errors
+    - User instructions
+  - Two-state process model
+    - RUNNING
+    - NOT RUNNING
+  - Three-state process
+  - Five-state process
 - Interrupt Requests (IRQs, aka 'Interrupts')
   - The systems that manages and interleaves device processes with system processes.
     - IRQ lines send messages from hardware to the CPU to 'interrupt' or take priority.
       - Interrupt Handler: the program that loads the interrupt and processes it.
       - Used for various inputs keyboard, mouse, hard drive, sound, video, etc.
-      - IRQs are numbered and can be set in the BIOS to avoid conflicts between devices. 
+      - IRQs are numbered and can be set in the BIOS to avoid conflicts between devices.
       - Newer devices may have dedicated Interrupt Controllers and/or support IRQ sharing.
       - 'Plug and Play' is the system of auto-configuring IRQs when devices are inserted.
 - File system
@@ -48,23 +65,27 @@ with themselves and each other using the CMOS settings.
     for processing. 
     - Levels of memory:
       - OS memory: pre-cached and makes the OS and UI more responsive.
-      - Application memory: garbage collection exited processes. 
+      - Application memory: garbage collection exited processes.
         - Improves application performance if the OS has plenty.
 - I[nput]/O[uput]
   - Memory mapped I/O interfaces and abstractions for the Bus and IRQs.
     - Channel I/O: software based DMA with more options.
-    - Port-mapped I/O: port number assignment and management. 
+    - Port-mapped I/O: port number assignment and management.
 - Networking
-  - Software based networking hardware: topology, routing, packet management, port mapping, 
+  - Software based networking hardware: topology, routing, packet management, port mapping,
     protocol configuration.
   - Providing a visual interface for networking hardware.
 - Security
-  - Integrity
-    - Vulnerability patch fixes
-  - Integrated tools 
-    - Malware removal
-    - Firewall/net traffic monitoring and control
-  - Filesystem 
-    - Encryption
-    - User/privilege metadata
-  - UI for Security tools
+  - Integrity.
+    - Vulnerability patch fixes.
+  - Integrated tools
+    - Malware removal.
+    - Firewall/net traffic monitoring and control.
+    - Network encryption.
+  - Filesystem
+    - Encryption.
+    - User/privilege metadata.
+  - UI for Software tools
+    - IE, Metasploit Framework for Pen[etration] testing.
+  - UI for Hardware tools
+    - IE, Oracle database hardware based firewall.
