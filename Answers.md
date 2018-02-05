@@ -77,7 +77,7 @@ with themselves and each other using the CMOS settings.
     - G[raphical] U[ser] I[nterface]: uses a pointer device (ie, a mouse or touchscreen).
 - Memory Management
   - Virtual Memory: page swapping hard disk ROM with RAM to increase the available resources
-    for processing. 
+    for processing.
     - Levels of memory:
       - OS memory: pre-cached and makes the OS and UI more responsive.
       - Application memory: garbage collection exited processes.
@@ -100,7 +100,7 @@ with themselves and each other using the CMOS settings.
   - Filesystem
     - Encryption.
     - User/privilege metadata.
-  - UI for Software tools
+  - UI for software tools
     - IE, Metasploit Framework for Pen[etration] testing.
-  - UI for Hardware tools
+  - UI for hardware tools
     - IE, Oracle database hardware based firewall.
