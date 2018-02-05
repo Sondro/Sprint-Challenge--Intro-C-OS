@@ -11,6 +11,7 @@ with themselves and each other using the CMOS settings.
 - POST (Power-On Self-Test): tests hardware components to determine the system's boot fitness.
     - Feedback may be relayed via audible beep code (ie, single short for pass).
        - Or LED blinks/colors.
+       
 ### Boot[strap load]
 - Boot[strap] Loader [program]: On successful POST, the system 'bootstraps' or pulls itself
   together.
@@ -47,9 +48,13 @@ with themselves and each other using the CMOS settings.
   - Three-state process
     - RUNNING
     - READY (queued)
-    - BLOCKED (requires event handling)
-  - Five-state process
-    -
+    - BLOCKED (requires event handling to change state)
+  - Five-state process: swapping or 'suspending' states into buffers for efficiency.
+    - RUNNING
+    - READY (queued)
+    - BLOCKED (requires event handling to change state)
+    - READY SUSPEND (READY process loaded into a swap buffer)
+    - BLOCKED SUSPEND (BLOCKED process loaded into a swap buffer)
 - Interrupt Requests (IRQs, aka 'Interrupts')
   - The systems that manages and interleaves device processes with system processes.
     - IRQ lines send messages from hardware to the CPU to 'interrupt' or take priority.
