@@ -98,7 +98,7 @@ with themselves and each other using the CMOS settings.
     - Firewall/net traffic monitoring and control.
     - Network encryption.
   - Filesystem
-    - Encryption.
+    - Local encryption.
     - User/privilege metadata.
   - UI for software tools
     - IE, Metasploit Framework for Pen[etration] testing.
