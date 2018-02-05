@@ -60,4 +60,11 @@ with themselves and each other using the CMOS settings.
   - Providing a visual interface for networking hardware.
 - Security
   - Integrity
-  - Filesystem encryption,
+    - Vulnerability patch fixes
+  - Integrated tools 
+    - Malware removal
+    - Firewall/net traffic monitoring and control
+  - Filesystem 
+    - Encryption
+    - User/privilege metadata
+  - UI for Security tools
