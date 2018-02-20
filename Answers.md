@@ -1,4 +1,3 @@
-
 ## What are some of the tasks that a general operating system is responsible for handling?
   ### Pre-Boot
 - BIOS (Basic Input/Output System): flash memory based hardware instructions communicate
@@ -38,27 +37,27 @@ with themselves and each other using the CMOS settings.
       - Pipes/Units optimized for parallel micro-instructions.
     - Interleaving processes.
   - Process Creation
-    - Process batches
-    - Process node parent/child spawning
+    - Process batches.
+    - Process node parent/child spawning.
   - Process Termination
-    - Batch halt instructions
-    - Hardware errors
-    - Software errors
-    - User instructions
-    - Process completed
+    - Batch halt instructions.
+    - Hardware errors.
+    - Software errors.
+    - User instructions.
+    - Process completed.
   - Two-state process model
-    - RUNNING
-    - NOT RUNNING
+    - RUNNING.
+    - NOT RUNNING.
   - Three-state process
-    - RUNNING
-    - READY (queued)
-    - BLOCKED (requires event handling to change state)
+    - RUNNING.
+    - READY (queued).
+    - BLOCKED (requires event handling to change state).
   - Five-state process: swapping or 'suspending' states into buffers for efficiency.
-    - RUNNING
-    - READY (queued)
-    - BLOCKED (requires event handling to change state)
-    - READY SUSPEND (READY process loaded into a swap buffer)
-    - BLOCKED SUSPEND (BLOCKED process loaded into a swap buffer)
+    - RUNNING.
+    - READY (queued).
+    - BLOCKED (requires event handling to change state).
+    - READY SUSPEND (READY process loaded into a swap buffer).
+    - BLOCKED SUSPEND (BLOCKED process loaded into a swap buffer).
 - Interrupt Requests (IRQs, aka 'Interrupts')
   - The systems that manages and interleaves device processes with system processes.
     - IRQ lines send messages from hardware to the CPU to 'interrupt' or take priority.
@@ -69,10 +68,10 @@ with themselves and each other using the CMOS settings.
       - 'Plug and Play' is the system of auto-configuring IRQs when devices are inserted.
 - File system
   - Provides a directory/folder structure
-    - Uses tables and/or nodes for look-up
+    - Uses tables and/or nodes for look-up.
     - Examples include NTFS and FAT (Windows), HFS and HPFS (Apple), EXT, XFS (Linux).
     - Metadata: Miscellaneous for managing files (ie attributes on Windows).
-  - U[ser] I[nterface]: provides tools for manipulating files
+  - U[ser] I[nterface]: provides tools for manipulating files:
     - Text based: uses typed commands with typing device (ie, keyboard or touchscreen).
     - G[raphical] U[ser] I[nterface]: uses a pointer device (ie, a mouse or touchscreen).
 - Memory Management
@@ -93,14 +92,14 @@ with themselves and each other using the CMOS settings.
 - Security
   - Integrity.
     - Vulnerability patch fixes.
-  - Integrated tools
+  - Integrated tools:
     - Malware removal.
     - Firewall/net traffic monitoring and control.
     - Network encryption.
-  - Filesystem
+  - Filesystem:
     - Local encryption.
     - User/privilege metadata.
-  - UI for software tools
+  - UI for software tools:
     - IE, Metasploit Framework for Pen[etration] testing.
   - UI for hardware tools
     - IE, Oracle database hardware based firewall.
